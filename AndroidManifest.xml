@@ -1,0 +1,51 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qshuttle.passenger"
+    android:versionCode="103"
+    android:versionName="1.0.3" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+    <application
+        android:icon="@drawable/icon_taxi"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ActivityLogin" android:theme="@style/AppTheme">
+        </activity>
+        <activity android:name="HostSettingActivity" android:theme="@style/Transparent"></activity>
+        <activity android:name="ActivityTabMain" android:theme="@style/Transparent"></activity>
+        <activity android:theme="@style/AppTheme" android:name="ActivityLineQuery"></activity>
+        <activity android:name="ActivityHubSelect"></activity>
+        <activity android:name="ActivityAreaSelect" android:theme="@style/AppTheme"></activity>
+        <activity android:name="ActivityDateSelect"></activity>
+        <activity android:name="ActivityTicketQuery"></activity>
+        <activity android:name="ActivityPassengerSelect"></activity>
+        <activity android:name="ActivityOrderInput"></activity>
+        <activity android:name="ActivityPassengerAdd"></activity>
+        <activity android:name="ActivityRegister"></activity>
+        <activity android:name="ActivityResetPwd"></activity>
+        <activity android:name="ActivityPassengerManager"></activity>
+        <activity android:name="ActivityPassengerEdit"></activity>
+        <activity android:name="ActivityPassengerDelete"></activity>
+        <activity android:name="ActivityMyOrder"></activity>
+        <activity android:name="ActivityOrderChange"></activity>
+        <activity android:name="ActivityMyCar"></activity>
+    </application>
+
+</manifest>

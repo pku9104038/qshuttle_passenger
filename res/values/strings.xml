@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">接送车</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="passeger_info_not_available">乘客信息不完整！</string>
+    <string name="null_string"/>
+    <string name="hint_input_passenger">  请点击这里添加乘客</string>
+    <string name="api_resp_null_msg">网络服务请求失败！</string>
+    <string name="submit">确认</string>
+    <string name="callservice">联系客服</string>
+    <string name="caldriver">联系司机</string>
+    <string name="online_required">请确认您的手机数据连接正常，本应用需要网络服务！</string>
+    <string name="cancel">取消</string>
+    <string name="exit_confirm">您确定退出接送车应用吗？</string>
+    <string name="set">确认</string>
+    <string name="welcome_back">感谢您使用接送车客户端，期待继续为您提供满意的服务！</string>
+    <string name="too_much_passenger">乘客数超过余票数，请减少乘客数量或更换车次！</string>
+
+</resources>
